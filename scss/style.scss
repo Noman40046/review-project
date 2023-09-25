@@ -121,3 +121,15 @@ main{
 }
 
 }
+
+/* responsive--- */
+@media only screen and (max-width: 768px) and (min-width: 0px) 
+ {
+
+    main{
+
+        width: 310px;
+        height: 500px;
+    }
+
+ }
