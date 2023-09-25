@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .title h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-shadow: #2a83f0 3px 1px;
+  color: rgb(0, 9, 29);
+}
+main .title div {
+  height: 5px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #2a83f0;
+}
+main article {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(55, 151, 255, 0.2), 0 6px 20px 0 rgba(80, 169, 252, 0.379);
+}
+main article h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+}
+main article #job {
+  font-size: 20px;
+  color: #2a83f0;
+}
+main article #info {
+  font-size: 18px;
+  padding: 20px;
+  color: white;
+}
+main article .button-container button {
+  margin: 15px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+main article .button-container button i {
+  font-size: 20px;
+  color: #2a83f0;
+}
+main article .button-container button i:hover {
+  color: white;
+}
+main article .random-btn {
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 2px 0 #2a83f0, 0 4px 5px 1px #2a83f0;
+  margin-bottom: 15px;
+  font-size: 15px;
+  background-color: black;
+}
+main article .random-btn:hover {
+  box-shadow: 0 4px 2px 0 #ffffff, 0 4px 5px 1px #ffffff;
+  transition: 0.3s ease-in-out;
+  color: #2a83f0;
+}
+main .img-container {
+  background-color: #2a83f0;
+  width: 200px;
+  height: 200px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main .img-container img {
+  width: 200px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}/*# sourceMappingURL=style.css.map */
