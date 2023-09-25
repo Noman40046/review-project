@@ -4,7 +4,7 @@ const reviews = [
       id: 1,
       name: 'Susan Smith',
       job: 'Web developer',
-      img: '../img/img-2.jpg',
+      img: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg',
       text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
     },
     {
